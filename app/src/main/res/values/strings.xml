@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">YuEsport</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="creategame_title">Game name ?</string>
+    <string name="creategame_positive">Create Game</string>
+    <string name="creategame_negative">Cancel Game</string>
+    <string name="creategame_gamehint">CS: Go, League of Legends ...</string>
+    <string name="menu_create_game">Create game</string>
+
+
+    <string name="deletegame_title">Do you really want to delete %1$s?</string>
+    <string name="deletegame_positive">Delete game</string>
+    <string name="deletegame_negative">Cancel</string>
+    <string name="game_message_error_could_note_create_game">Could not create game</string>
+    <string name="game_message_info_game_deleted">%1$s has been deleted</string>
+    <string name="game_message_error_game_deleted">Could not delete %1$s</string>
+</resources>
