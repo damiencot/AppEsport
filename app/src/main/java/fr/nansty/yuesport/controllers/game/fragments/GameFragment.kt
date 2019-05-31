@@ -1,25 +1,26 @@
-package fr.nansty.yuesport.game.controllers.fragments
+package fr.nansty.yuesport.controllers.game.fragments
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.*
-import android.widget.Toast
 import fr.nansty.yuesport.Database
 
 import fr.nansty.yuesport.R
-import fr.nansty.yuesport.game.Game
-import fr.nansty.yuesport.game.controllers.activities.App
-import fr.nansty.yuesport.game.controllers.adapters.GameAdapter
+import fr.nansty.yuesport.controllers.Game
+import fr.nansty.yuesport.controllers.game.activities.App
+import fr.nansty.yuesport.controllers.game.adapters.GameAdapter
 import fr.nansty.yuesport.utils.toast
 
 
 class GameFragment : Fragment(), GameAdapter.GameItemListener {
 
+    interface GameFragmentListener{
+        fun onGameSelected(game: Game)
+    }
+
+    var listener : GameFragmentListener? = null
 
     private lateinit var games: MutableList<Game>
 
@@ -91,7 +92,7 @@ class GameFragment : Fragment(), GameAdapter.GameItemListener {
     }
 
     override fun onGameSelected(game: Game) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        listener?.onGameSelected(game)
     }
 
     override fun onGameDeleted(game: Game) {

@@ -1,4 +1,4 @@
-package fr.nansty.yuesport.game.controllers.activities
+package fr.nansty.yuesport.controllers.game.activities
 
 import android.app.Application
 import fr.nansty.yuesport.Database

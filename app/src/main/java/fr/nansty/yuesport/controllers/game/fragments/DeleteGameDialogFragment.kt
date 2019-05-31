@@ -1,4 +1,4 @@
-package fr.nansty.yuesport.game.controllers.fragments
+package fr.nansty.yuesport.controllers.game.fragments
 
 import android.app.Dialog
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package fr.nansty.yuesport.game.controllers.adapters
+package fr.nansty.yuesport.controllers.game.adapters
 
 import android.support.v7.widget.CardView
 import android.support.v7.widget.RecyclerView
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import fr.nansty.yuesport.R
-import fr.nansty.yuesport.game.Game
+import fr.nansty.yuesport.controllers.Game
 
 //GameAdapter affiche seulement les données (liste de JEUX)
 //Listerner qui seras appeler lorsqu'une action deras fait sur une des items

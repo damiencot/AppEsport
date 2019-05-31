@@ -5,7 +5,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
-import fr.nansty.yuesport.game.Game
+import fr.nansty.yuesport.controllers.Game
 
 
 private const val DATABASE_NAME = "esport.db"

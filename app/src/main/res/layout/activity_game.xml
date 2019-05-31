@@ -5,13 +5,13 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".game.controllers.activities.GameActivity">
+        tools:context=".controllers.game.activities.GameActivity" android:orientation="vertical">
 
     <fragment
             android:id="@+id/game_fragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:name="fr.nansty.yuesport.game.controllers.fragments.GameFragment"
+            android:name="fr.nansty.yuesport.controllers.game.fragments.GameFragment"
     />
 
 </LinearLayout>

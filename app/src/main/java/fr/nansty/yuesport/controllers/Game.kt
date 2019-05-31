@@ -1,4 +1,4 @@
-package fr.nansty.yuesport.game
+package fr.nansty.yuesport.controllers
 
 data class Game (var id: Long, var name: String){
 
